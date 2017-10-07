@@ -1,0 +1,133 @@
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'SquareFont';
+    src: url('Square.ttf') format('truetype');
+         url('Square.woff2') format('woff2'),
+         url('Square.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'AlteHaasGroteskRegular';
+    src: url('AlteHaasGroteskRegular.ttf') format('truetype');
+         url('AlteHaasGroteskRegular.woff2') format('woff2'),
+         url('AlteHaasGroteskRegular.woff') format('woff'),
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: SquareFont;
+    font-size: 1000%;
+    display: inline;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: SquareFont;
+    font-size: 500%;
+    display: inline;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    font-family: SquareFont;
+    font-size: 200%;
+    display: inline;
+}
+
+#box1 {
+    background-color: black;
+    background-size: 100% auto;
+    width: 50x;
+}
+
+#box2 {
+    background-image: url("0-75.png");
+    background-repeat: repeat;
+    text-align: center;
+    length: 1000px;
+}
+
+#box0 {
+    background-color: black; 
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#box3 {
+    background-color: white; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    font-family: AlteHaasGroteskRegular;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+#text1 {
+    height: 50px;
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+    font-family: AlteHaasGroteskRegular;
+}
+
+#text2 {
+    height: 50px;
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+    font-family: AlteHaasGroteskRegular;
+    font-size: 100%;
+}
+
+body {
+    background-color: black; 
+}
+
+img {
+  display: block;
+  max-width:600px;
+  max-height:600px;
+  width: auto;
+  height: auto;
+}
+
+#link {
+    padding: 4px 0px;
+    text-align: center;
+    background-color: black;
+    font-family: SquareFont;
+}
+
+#link2 {
+    padding: 4px 0px;
+    text-align: center;
+    background-color: black;
+    color: grey;
+    font-family: SquareFont;
+    font-size: 70%;
+}
+
+a, span.link {
+    text-decoration: none;
+    color: white;
+    font-size: 300%;
+}
+
+a:hover {  /* changes the color of the text to blue on mouseover */
+     color: grey;
+}
